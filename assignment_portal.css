@@ -1,8 +1,8 @@
 body
 {
     background-color:rgb(20, 4, 160) ;
-    height:800px;
-    min-width:525px;
+
+    
 }
 
 h1
@@ -61,7 +61,7 @@ li
 {
     
     background-color:blue;
-    width:460px;
+    max-width:460px;
     margin:0 auto;
     padding-top:30px;
     padding-bottom:30px;
