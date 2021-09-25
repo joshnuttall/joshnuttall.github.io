@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel ="stylesheet" href="/design-principles.css">
+    <title>Document</title>
+    <script>
+        function years()
+            {
+                let output = new Date();
+                let something = output.getFullYear();
+                document.getElementById("copyyear").innerHTML = something;
+            }
+        
+        function year()
+            {
+                let string = document.lastModified;
+                document.getElementById("year").innerHTML = string;
+
+
+            }
+    </script>
+</head>
+<body onLoad="year();years();"> 
+<header>
+    <h1 id="h1">Design Principles</h1>
+
+</header>
+
+<section id="bulk">
+    <div class="main-div">   
+        <h1>White Space</h1>
+        <p>Beehive Federal Credit Union</p>
+        <div>
+            <a target="_blank" href="https://beehive.org/">Beehive.Org</a>
+        </div>
+        <img alt="Beehive Credit Union Webpage" src="https://cdn.glitch.com/36b005b9-6e4e-4834-ae2d-f614d6c2fd79%2FBeehive2.png?v=1632592834783"> 
+        <p>Beehive's website's use of white space allows everything to look nice and spaced out. 
+            If there wasn't whitespace all the information would be very cramped together and would be very
+            difficult to read.
+        </p>
+    </div>
+    
+    <div class="main-div">   
+        <h1>Repetition</h1>
+        <p>ESPN</p>
+        <div><a target=" _blank" href="https://www.espn.com/">ESPN.com</a></div>
+        <img alt="ESPN Webpage" src="https://cdn.glitch.com/36b005b9-6e4e-4834-ae2d-f614d6c2fd79%2FESPN%20(1).png?v=1632594250632"> 
+        <p>ESPN's website's use of repititon can be  see in with how they style their font. They consistently color the font red for the current time in 
+            the game. Their consistent use of fonts for different things make it much easier for the user to understand their website and to use it.</p>
+
+    </div>
+    
+    <div class="main-div">   
+        <h1>Contrast</h1>
+        <p>Amazon</p>
+        <div><a target="_blank" href="https://www.amazon.com/Prime-Video/b?ie=UTF8&node=2676882011">Amazon.com</a></div>
+        <img alt="Amazon Webpage" src="https://cdn.glitch.com/36b005b9-6e4e-4834-ae2d-f614d6c2fd79%2FAmazon.png?v=1632594442157"> 
+        <p>Amazon's website's use of Contrast can be seen with the dark background and use of white color of font and of the ribbion 
+            like things. Specifically the background that has the Prime logo with the black background of the overall website makes the Prime logo stick out. 
+            So, not only does contrast allow the user to easily look at your website, but it can be used to point things out.</p>
+    </div>
+</section>
+
+
+    <footer>
+        <div id="footer">
+            <ul>
+                <li id="bottom">&COPY; <p id="copyyear"></p>  | Josh Nuttall | <a id="test" target="_blank" href="https://developer.mozilla.org/en-US/">MDN Documentation Site </a> | BYU-Idaho Last Updated: <p id="year"></p> </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

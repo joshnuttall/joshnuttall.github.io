@@ -1,0 +1,220 @@
+h1
+{
+    color:white;
+}
+
+header h1
+{
+    text-align:center;
+}
+
+@media only screen and (min-width:800px) {
+    #bulk
+    {
+    
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-gap:30px;
+    padding-right:30px;
+    padding-left:30px;
+    
+}
+
+    #footer
+    {
+        grid-column:1/4;
+        text-align:center;
+    }
+
+    .main-div
+    {
+        background-color:blue;
+        border-color:rgba(0, 0, 0, 0.541);
+        border-style:outset;
+        
+    }
+
+    .main-div p
+    {
+        color:white;
+        font-size:20px;
+        text-align:center;
+        margin-right:30px;
+        margin-left:30px;
+    }
+
+    .main-div div a
+    {
+        text-decoration:none;
+        color:white;
+        font-size:20px;
+        text-align:center;
+        display:block;
+        max-width:fit-content;
+        margin:auto;    }
+
+    .main-div div a:hover
+    {
+        color:red;
+        background-color:white;
+    }    
+
+    .main-div h1
+    {
+        font-size: 30px;
+        text-align:center;
+    }
+
+    #h1
+    {
+        font-size: 45px; 
+    }
+
+    img
+    {
+        height:320px;
+        width:160px;
+    }
+
+}
+
+    
+
+
+@media only screen and (min-width:0px) and (max-width:400px) 
+{
+    img
+    {
+        height:416px;
+        width:auto;
+    }
+
+    body
+    {
+        width:auto;
+    }
+
+    #h1
+    {
+        margin-bottom:-400px;
+    }
+    
+}
+
+@media only screen and (min-width:401px) and (max-width:799px)
+{
+    img
+    {
+        height:640px;
+        width:320px;
+    }
+
+    #h1
+    {
+        font-size:50px;
+        color:white;
+    }
+
+    #bulk
+    {
+        display:grid;
+        grid-template-rows:1fr 1fr 1fr;
+        grid-row-gap:20px;
+    }
+
+    .main-div
+    {
+        background-color:blue;
+        margin-right:20px;
+        margin-left:20px;
+        border-radius: 5%;
+        padding-top:20px;
+        padding-bottom: 40px;
+        border-color:rgba(0, 0, 0, 0.418);
+        border-style: outset;
+        padding-right:15px;
+    }
+
+    .main-div p
+    {
+        color:white;
+        margin-left:10px;
+        text-align:center;
+        font-size:20px;
+    }
+
+    .main-div div a:hover
+    {
+        color:red;
+        background-color:white;
+        
+        
+    }
+
+    .main-div div a
+    {
+        text-decoration:none;
+        color:white;
+        font-size:20px;
+        text-align:center;
+        display:block;
+        max-width:fit-content;
+        margin:auto;    }
+
+    .main-div h1
+    {
+        font-size:30px;
+        text-align:center;
+    }
+
+    body
+    {
+        margin-bottom:-1000px; 
+    }
+}
+
+
+
+ul
+{
+    list-style: none;
+}
+
+footer p
+{
+    display:inline;
+    
+}
+
+body
+{
+    background-color:rgb(18, 48, 214); 
+    display:grid;
+    grid-template-rows: .15fr .1fr .1fr;
+    
+    
+}
+
+a:hover
+{
+    color:red;
+    background-color:white;
+}
+
+footer a
+{
+    text-decoration:none;
+    color:aqua;
+}
+
+footer
+{
+    color:aqua;
+}
+
+img
+{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;      
+}
