@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        function years()
+            {
+                let output = new Date();
+                let something = output.getFullYear();
+                document.getElementById("copyyear").innerHTML = something;
+            }
+        
+        function year()
+            {
+                let string = document.lastModified;
+                document.getElementById("year").innerHTML = string;
+
+
+            }
+    </script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel ="stylesheet" href="/css/normalize.css">
+    <link rel ="stylesheet" href="/weather-project/weather-style.css">
+    <title>Document</title>
+</head>
+<body onLoad="year();years();">
+    <header>
+        <img id="pic" src="https://cdn.glitch.com/36b005b9-6e4e-4834-ae2d-f614d6c2fd79%2F274759_weather_heavy%20snow_snowy_forecast_icon%20(1).png?v=1633109195933">
+        <h1>Snowday</h1>
+        <h2>Home</h2>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a class="a" href="https://joshnuttall.github.io/index.html">Portal</a></li>
+            <li><a class="a" rel="stylesheet" href="index.html">Home</a></li>
+            <li><a class="a" rel="stylesheet" href="audience.html">Audience</a></li>
+            <li><a class="a" rel="stylesheet" href="colors.html">Colors</a></li>
+            <li><a class="a" rel="stylesheet" href="typography.html">Typography</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        
+        <p>The purpose of this site is to help people check the weather.</p>
+        <p><b>Domain:</b> Snowday.live</p>
+    </main>
+
+    <footer>
+        <div>
+            <ul>
+                <li id="bottom">&COPY;<p id="copyyear">  | Josh Nuttall |</p><a id="test" target="_blank" href="https://developer.mozilla.org/en-US/">MDN Documentation Site </a> | BYU-Idaho Last Updated: <p id="year"></p> </li>
+            </ul>
+        </div>
+    </footer>
+
+    
+
+
+    
+</body>
+</html>

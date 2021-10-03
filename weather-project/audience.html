@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        function years()
+            {
+                let output = new Date();
+                let something = output.getFullYear();
+                document.getElementById("copyyear").innerHTML = something;
+            }
+        
+        function year()
+            {
+                let string = document.lastModified;
+                document.getElementById("year").innerHTML = string;
+
+
+            }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel ="stylesheet" href="/css/normalize.css">
+    <link rel ="stylesheet" href="/weather-project/weather-style.css">
+    <title>Document</title>
+</head>
+<body onLoad="year();years();">
+    <header>
+        <img id="pic" src="https://cdn.glitch.com/36b005b9-6e4e-4834-ae2d-f614d6c2fd79%2F274759_weather_heavy%20snow_snowy_forecast_icon%20(1).png?v=1633109195933">
+        <h1>Snowday</h1>
+        <h2>Audience</h2>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a class="a" href="https://joshnuttall.github.io/index.html">Portal</a></li>
+            <li><a class="a" rel="stylesheet" href="index.html">Home</a></li>
+            <li><a class="a" rel="stylesheet" href="audience.html">Audience</a></li>
+            <li><a class="a" rel="stylesheet" href="colors.html">Colors</a></li>
+            <li><a class="a" rel="stylesheet" href="typography.html">Typography</a></li>
+        </ul>
+    </nav>
+
+    <main>
+       <section >
+        <p>The target audience of this site are those who rely on  weather forecasts for things like travel, work, outdoor events, etc.</p>    
+
+            <h3 id="h3-brad">Brad</h3>
+        
+        <div id="brad-div"><img id="brad" src="brad1.png"></div>
+
+            <p>Brad is a CEO for a company and does a lot of traveling by car/plane. He uses weather forecast to plan when he will make long trips and what times specifically to book flights so that he can be as efficent as possible wit his business trips.</p>
+            
+            
+        </section>
+
+        <section id="lisa">
+            
+            <h3 id="h3-lisa">Lisa</h3>
+
+            <img id="img-lisa" src="Lisa.png">
+
+            <p>Lisa is a young mom of 2 kids. One of her current hobbies is running. Lisa prefers to run outside when she trains for her marathons. If shes knows it will be rainy or snowy, she can adjust her schedule so that she is able to run in the local gym.</p>
+        </section>
+
+        <section>
+            <h3>Personas</h3>
+            <ol>
+                <li class="order-list">What is the temperature outside in celsius instead of farhenhiet?</li>
+                <li class="order-list">What wil the weather be like around today at 7:30 pm?</li>
+                <li class="order-list">What will the weather be like throughout the week?</li>
+                <li class="order-list">What will the weather be like in Denver?</li>
+                <li class="order-list">What are the temperature highs and lows for tomorrow?</li>
+            </ol>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <ul>
+                <li id="bottom">&COPY; <p id="copyyear"></p>  | Josh Nuttall | <a id="test" target="_blank" href="https://developer.mozilla.org/en-US/">MDN Documentation Site </a> | BYU-Idaho Last Updated: <p id="year"></p> </li>
+            </ul>
+        </div>
+    </footer>
+
+    
+
+
+    
+</body>
+</html>

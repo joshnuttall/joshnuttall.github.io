@@ -1,0 +1,275 @@
+/*
+General 
+*/
+#pic
+{
+    margin-left:5px;
+    margin-top:-20px;
+}
+
+
+
+h1
+{
+    font-size:60px;
+    margin-top:-5px;
+}
+
+.a
+{
+    margin-left:-25px;
+    font-size:30px;
+    color:black;
+}
+
+
+
+
+
+h2
+{
+    font-size:37px;
+}
+
+p
+{
+    font-family: 'Roboto', sans-serif;
+    text-align:center;
+    font-size:32px;
+}
+
+body
+{
+    background-color:lightblue;
+    color:#FFFFFF;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+nav ul { display: flex;
+    flex-direction:column; }
+nav ul li { flex: 1 1 100%; }
+
+nav
+{
+    background-color:black;
+}
+
+h1
+{
+    color:yellow;
+    text-align:center;
+}
+
+nav ul
+{
+    
+    list-style-type:none;    
+    background-color:cornflowerblue;
+    border-bottom-style:solid;
+    border-top-style:solid;    
+    color:black;
+    
+    text-align:center;
+}
+
+nav a 
+{
+    
+    text-decoration:none;
+    
+    
+    
+}
+
+/*
+centering images css
+*/
+
+/*
+footer css start
+*/
+
+footer p
+{
+    display:inline;
+    font-size:20px;
+    
+    
+}
+
+#bottom 
+{
+    list-style-type:none;
+    text-align:center;
+    
+
+}
+
+#bottom a
+{
+    color:white;
+
+}
+
+#test
+{
+    font-size:20px;
+}
+/*
+footer css end
+*/
+
+nav a:hover
+{
+    background-color:white;
+}
+
+@media only screen and (max-width:599px)
+{
+    #img-lisa
+{
+    height:300px;
+    margin-left:-50px;
+}
+
+#brad
+{
+    height:300px;
+    margin-left:-120px;   
+}
+}
+
+
+/*
+Colors
+*/
+#color2
+{
+    background-color:#F8F8FF;
+    height:350px;
+    border-radius:100%;
+    width:350px;
+    border-color:black;
+    border-style:solid;
+    color:#010B13;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:30px;
+    margin-top:30px;
+
+}
+
+.p
+{
+    margin-top:62px;
+}
+
+#color1
+{
+    background-color:#6495ED;
+    height:350px;
+    border-radius:100%;
+    width:350px; 
+    border-color:black;
+    border-style:solid;
+    color:#FFF44F;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#color3
+{
+    background-color:#010B13;
+    height:350px;
+    border-radius:100%;
+    width:350px; 
+    border-color:black;
+    border-style:solid;
+    color:#F8F8FF;
+    line-height:auto;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+h3
+{
+    font-size:35px;
+}
+
+#color4
+{
+    background-color:#FFF44F;
+    height:350px;
+    border-radius:100%;
+    width:350px; 
+    border-color:black;
+    border-style:solid;
+    color:cornflowerblue;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:30px;
+}
+
+.order-list
+{
+    font-size:32px;   
+}
+
+#bottom
+{
+    font-size:20px;
+    
+}
+
+#colors
+{
+    text-align:center;
+}
+/*
+Smaller Screen
+*/
+
+@media only screen and (min-width:600px)
+{nav ul { 
+    display:flex;
+    flex-direction:row;
+ }
+nav ul li { flex: 1 1 100%; }
+
+div #brad
+{
+    margin-left:210px;
+    margin-top:-80px;
+}
+
+
+#h3-brad
+{
+    text-align:center;
+}
+
+#h3-lisa
+{
+    text-align:center;
+}
+
+#img-lisa
+{
+    margin-left:310px;
+}
+
+footer
+{
+    margin-top:100px;
+}
+
+main
+{
+    margin-top:50px;
+}
+}
