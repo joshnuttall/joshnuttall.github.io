@@ -41,7 +41,7 @@ p
 body
 {
     background-color:lightblue;
-    color:#FFFFFF;
+    color:body;
     font-family: 'Source Sans Pro', sans-serif;
 
 }
@@ -57,7 +57,7 @@ nav
 
 h1
 {
-    color:yellow;
+    color:black;
     text-align:center;
 }
 
@@ -108,7 +108,7 @@ footer p
 
 #bottom a
 {
-    color:white;
+    color:black;
 
 }
 
