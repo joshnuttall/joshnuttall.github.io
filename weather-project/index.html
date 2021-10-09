@@ -5,29 +5,15 @@
     
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script>
-        function years()
-            {
-                let output = new Date();
-                let something = output.getFullYear();
-                document.getElementById("copyyear").innerHTML = something;
-            }
-        
-        function year()
-            {
-                let string = document.lastModified;
-                document.getElementById("year").innerHTML = string;
-
-
-            }
-    </script>
+    <script src="java.js"></script>
     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
-    <link rel ="stylesheet" href="/css/normalize.css">
+    
     <link rel ="stylesheet" href="/weather-project/weather-style.css">
-    <title>Document</title>
+    <title>Home | Weather Site Plan</title>
 </head>
 <body onLoad="year();years();">
     <header>
