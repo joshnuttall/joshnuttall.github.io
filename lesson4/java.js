@@ -104,7 +104,7 @@ function years()
                     break;
                 }
                 
-                document.getElementById("day").innerHTML = days + ", " + day.getDate() + " " + months + " " + day.getFullYear();
+                document.getElementById("day").innerHTML = days + ", " + day.getDate() + " " + months + " " + day.getFullYear() + day.getMinutes();
             
             }
             
