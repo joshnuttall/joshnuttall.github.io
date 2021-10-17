@@ -104,7 +104,7 @@ function years()
                     break;
                 }
                 
-                document.getElementById("day").innerHTML = days + ", " + day.getDate() + " " + months + " " + day.getFullYear();
+                document.getElementById("day").innerHTML = days + ", " + day.getDate() + " " + months + " " + day.getFullYear() + day.getMinutes();
             
             }
             
@@ -113,4 +113,23 @@ function years()
                 document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
                 
             }
+
+            function pancakeBanner()
+            {
+                
+                var days = new Date();
+                var day = days.getDay();
+                
+                if(day != 5)
+                {
+                    document.getElementById("p-banner").classList.add("pancake");
+                }
+
+
+                                
+                    
+                
+                
             
+            }
+           
