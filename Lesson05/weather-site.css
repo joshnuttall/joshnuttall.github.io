@@ -628,7 +628,7 @@ h3
 #forecast h1
 {
     grid-column: 2/5;
-    color:yellow;
+    color:black;
     justify-self:center;
 }
 
