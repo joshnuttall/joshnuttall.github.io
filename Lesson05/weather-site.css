@@ -65,7 +65,7 @@
         width: 300px;;
         color:yellow;
         grid-column:1/2;
-        grid-template-rows:1/2;
+        grid-row:1/2;
     }
 
 }
@@ -401,18 +401,6 @@ nav
     background-color: #6494ed00;
 }
 
-.navigation button:hover
-{
-    color:white;
-    background-color: black; 
-    
-}
-
-.navigation a:hover
-{
-color:white;
-background-color: black;
-}
 
 
 .responsive li 
@@ -491,6 +479,20 @@ nav ul li
 @media only screen and (min-width:800px)
 {
     
+
+    .navigation button:hover
+    {
+        color:white;
+        background-color: black; 
+        
+    }
+    
+    .navigation a:hover
+    {
+    color:white;
+    background-color: black;
+    }
+    
     #article-sec
 {
     display:grid;
@@ -513,7 +515,7 @@ nav ul li
         width: 600px;;
         color:yellow;
         grid-column:2/3;
-        grid-template-rows:1/4;
+        grid-row:1/4;
     }
 
 
@@ -619,6 +621,13 @@ nav ul li
     background-color:white;
     border:3px solid black;
     justify-content:center;
+}
+
+#noscript
+{
+    background-color:white;
+    color:red;
+    margin-left:350px;
 }
 
 h3
