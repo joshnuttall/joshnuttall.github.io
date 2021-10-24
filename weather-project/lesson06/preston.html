@@ -5,23 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Preston, Idaho | Snowday</title>
-    <script src="java.js"></script>
+    
     <link rel="stylesheet" href="weather-site.css">
     <link rel="shortcut icon" href="favicon.icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
-    
+    <script defer src="java.js"></script>
 
     
             
 </head>
-<body onLoad="years();date();pancakeBanner();hello();">
+<body onLoad="years();date();pancakeBanner();">
     
     <noscript id="noscript">Javascript needs to be enabled in order to enhance the features of this page.</noscript>
     <header>
-    <div class="" id="p-banner">
+    <div class="pancake" id="p-banner">
         <p>Saturday = Preston Pancakes in the Park! <br> 9:00 A.M. Friday at the city park.</p>
         
     </div>
@@ -46,13 +46,21 @@
         <h2>Preston, Idaho</h2>
         <p id="jk"></p>
         <div class="hero">
-            <img id="preston-pic" alt="preston" src="preston4.jpg">
+            <p id="large">Large</p>
+            <p id="medium">Medium</p>
+            <p id="small">Small</p>
+            <picture>
+                <source srcset="hero800.jpg" media="(min-width:400px) and (max-width:799px)">
+                <source srcset="hero1500.jpg" media="(min-width:801px)">
+            <img id="preston-pic" alt="preston" src="hero400.jpg">
+            </picture>
             <section class="stats">
                 <h2>Weather Summary</h2>
-                <p id ="current">Currently: </p> <p id="current-span">Sunny</p>
-                <p id ="temp">High: </p><p id="temp-span">76 F</p>
-                <p id = "humid">Humidity: </p> <p id="humid-span">69%</p>
-                <p id ="wind-speed">Wind Speed: </p> <p id="wind-speed-span">5mph</p>
+                <p id ="current">Currently:<span id="current-span">Sunny</span> </p> 
+                <p id ="temp">High:<span id="temp-span">31</span>°F</p>
+                <p id = "humid">Humidity:<span id="humid-span">69</span>%</p> 
+                <p id ="wind-speed">Wind Speed:<span id="wind-speed-span">5</span>mph</p>
+                <p id ="wind-chill">Wind Chill:<span id="wind-chill-span">??</span></p>  
             </section>
             <section id="forecast">
                 <h1>5 Day Forecast</h1>
@@ -90,7 +98,7 @@
             </div>
         </section>
         <section id="contact-info"><h2>Contact Information</h2>
-            <img  id="map" alt="map" src="preston map.png">
+            <img  id="map" alt="map" src="prestonmap.png">
             
         <div id="contact-content">    
             <p>Snowday</p>
@@ -98,9 +106,9 @@
             <p>Preston, ID 83263</p><br>
             <p>&phone; 999.999.9999</p>
             <p>&#9993; snodayemail@email.com</p>
-            
+                
             <div class="social-icons">
-                <a target=" _blank"href="https://www.facebook.com/"><img alt="facebook" src="facebooksnowday.png"></a>
+                <a target=" _blank" href="https://www.facebook.com/"><img alt="facebook" src="facebooksnowday.png"></a>
                 <a target=" _blank" href="https://www.pinterest.com/"><img alt="pinterest" src="pinterest.png"></a>
                 <a target=" _blank" href="https://twitter.com"><img alt="twitter" src="twittersnowday.png"></a>
                 <a target=" _blank" href="https://www.whatsapp.com/"><img alt="whatsapp" src="whatsapp.png"></a>

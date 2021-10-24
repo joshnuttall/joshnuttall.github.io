@@ -1,3 +1,10 @@
+    
+    
+        
+
+
+
+
 function years()
             {
                 let output = new Date();
@@ -12,6 +19,8 @@ function years()
 
 
             }
+
+           
 
             function date()
             {
@@ -124,16 +133,27 @@ function years()
                 {
                     document.getElementById("p-banner").classList.add("pancake");
                 }
+            }
 
-
-                                
-                    
+            document.addEventListener("DOMContentLoaded", function(){
+                let temp = parseFloat(document.querySelector('#temp-span').innerHTML);
+                let speed = parseFloat(document.querySelector('#wind-speed-span').innerHTML);
+                let wcTemp = document.getElementById('wind-chill-span');
+                wcTemp.innerHTML = buildWC(speed,temp);
                 
-                
+             
+            });
             
-            }
-           
-            function bob()
-            {
-                alert("Yoyou");
-            }
+        function buildWC(speed, temp)
+                {
+                    
+                    let wc = 35.74 + .6215 * temp - 35.75 * Math.pow(speed,.16) +.4275 * temp * Math.pow(speed,.16);
+                    console.log(wc);
+                    wc = Math.floor(wc);
+                    wc = (wc > temp)?temp:wc;
+                    console.log(wc);
+                    wc =  wc + '°F';
+                    return wc;
+                    
+                }
+            
