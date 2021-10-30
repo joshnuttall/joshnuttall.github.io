@@ -185,10 +185,22 @@
     border:black solid 1px;
 }
 
-#preston
+#preston-page #preston
 {
     text-decoration:underline;
     font-style: italic;
+
+}
+
+ #preston
+{
+    text-decoration:none;
+}
+
+#gallery-body #gallery-link
+{
+    text-decoration:underline;
+    font-style:italic;
 
 }
 
