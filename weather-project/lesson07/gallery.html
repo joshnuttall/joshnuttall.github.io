@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preston, Idaho | Snowday</title>
+    
+    <link rel="stylesheet" href="weather-site.css">
+    <link rel="shortcut icon" href="favicon.icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <script defer src="java.js"></script>
+
+    
+            
+</head>
+<body onLoad="years();date();pancakeBanner();">
+    
+    <noscript id="noscript">Javascript needs to be enabled in order to enhance the features of this page.</noscript>
+    <header>
+    <div class="pancake" id="p-banner">
+        <p>Saturday = Preston Pancakes in the Park! <br> 9:00 A.M. Friday at the city park.</p>
+        
+    </div>
+    <section id="top">
+        <img id="pic" alt="logo" src="https://cdn.glitch.com/36b005b9-6e4e-4834-ae2d-f614d6c2fd79%2F274759_weather_heavy%20snow_snowy_forecast_icon%20(1).png?v=1633109195933">
+        <h1>Snowday</h1>
+        <p>Providing Weather Updates To Prepare For Tomorrow</p>
+    </section>
+        <nav>
+            <ul class="navigation">
+                <li><button onClick="toggleMenu();" class="ham">Menu</button></li>
+                <li><a href="">Home</a></li>
+                <li><a id ="preston" href ="">Preston</a></li>
+                <li><a href="">Soda Springs</a></li>
+                <li><a href="">Fish Haven</a></li>
+                <li><a href="">Storm Center</a></li>
+                <li><a href="">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Gallery</h2>
+        <section class="gallery-pictures">
+            
+            <div class="shadow"><img class="gallery" src="placeholder400x450.png" data-src="lightning-gallery.jpg" alt="Lightning Weather"> <caption>Lightning</caption></div>
+            <div class="shadow"><img class="gallery" src="placeholder400x450.png" data-src="sunny-gallery.jpg" alt="Sunny Weather"> <caption>Sunny</caption></div>
+            <div class="shadow"><img class="gallery" src="placeholder400x450.png" data-src="snowy-gallery.jpg" alt="Snowy Weather"> <caption>Snowy</caption></div>
+            <div class="shadow"><img  class="gallery" src="placeholder400x450.png" data-src="cloudy-gallery.jpg" alt="Cloudy Weather"> <caption>Cloudy</caption></div>
+            <div class="shadow"><img class="gallery"  src="placeholder400x450.png" data-src="tornado-gallery.jpg" alt="Tornado Weather"><caption>Tornado</caption></div> 
+            <div class="shadow"><img class="gallery" src="placeholder400x450.png" data-src="clearsky-gallery.jpg" alt="Clear Sky Weather"><caption>Clear Sky</caption></div>
+            <div class="shadow"><img class="gallery" src="placeholder400x450.png" data-src="icy-gallery.jpg" alt="Icy Weather"> <caption>Icy</caption></div>
+            <div class="shadow"><img class="gallery" src="placeholder400x450.png" data-src="foggy-gallery.jpg" alt="Foggy Weather"><caption>Foggy</caption></div>
+            <div class="shadow"><img class="gallery" src="placeholder400x450.png" data-src="dry-gallery.jpg" alt="Dry Weather"><caption>Dry</caption></div>
+        </section>
+      
+    </main>
+    
+    <footer>
+        
+        
+        <ul>
+            <li id="bottom">&COPY;<p id="copyyear">  | Josh Nuttall |</p><a id="test" target="_blank" href="https://developer.mozilla.org/en-US/"> | MDN Documentation Site </a> | BYU-Idaho Last Updated: <p id="day"></p> </li>
+        </ul>
+    </footer>
+    
+</body>
+
+</html>
