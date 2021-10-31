@@ -569,7 +569,7 @@ footer
     margin-left:10px;
 }
 
-main div 
+.gallery-pictures div 
     {
         background-color:white;
         border-radius:10px;
@@ -581,7 +581,14 @@ main div
     }
 
 
+    main div
+    {
+        max-width:1200px;
+        padding:30px;
+        font-size:18px;
+        margin:10px;
 
+    }
 
 
 
