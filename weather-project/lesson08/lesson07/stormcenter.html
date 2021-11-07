@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preston, Idaho | Snowday</title>
+    
+    <link rel="stylesheet" href="weather-site.css">
+    <link rel="shortcut icon" href="favicon.icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <script defer src="java.js"></script>
+
+    
+            
+</head>
+<body  onLoad="years();date();pancakeBanner();">
+    
+    <noscript id="noscript">Javascript needs to be enabled in order to enhance the features of this page.</noscript>
+    <header>
+    <div class="pancake" id="p-banner">
+        <p>Saturday = Preston Pancakes in the Park! <br> 9:00 A.M. Friday at the city park.</p>
+        
+    </div>
+    <section id="top">
+        <img id="pic" alt="logo" src="https://cdn.glitch.com/36b005b9-6e4e-4834-ae2d-f614d6c2fd79%2F274759_weather_heavy%20snow_snowy_forecast_icon%20(1).png?v=1633109195933">
+        <h1>Snowday</h1>
+        <p>Providing Weather Updates To Prepare For Tomorrow</p>
+    </section>
+        <nav>
+            <ul class="navigation">
+                <li><button onClick="toggleMenu();" class="ham">Menu</button></li>
+                <li><a href="">Home</a></li>
+                <li><a id ="preston" href ="https://joshnuttall.github.io/weather-project/lesson07/preston.html">Preston</a></li>
+                <li><a href="">Soda Springs</a></li>
+                <li><a href="">Fish Haven</a></li>
+                <li><a href="">Storm Center</a></li>
+                <li><a id="gallery-link" href="https://joshnuttall.github.io/weather-project/lesson07/gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form method="get" action="thanks.html">
+            <h2 id="personal-info">Personal Information</h2>
+        <div class="form-box">
+            <label for="fullname">Full Name</label><input id="fullname" name="full-name" type="text" required minlength="5" pattern="{A-Za-z /S}">
+        </div>
+        <div class="form-box"> 
+            <label for="email">Email</label><input id="email" type="email" name="email-form" value="email@gmail.com"> 
+        </div>
+        <div class="form-box">    
+            <label for="phonenumber">Phone Number</label><input type="tel" id="phonenumber" name="phone-number" value="111-111-1111" required>
+        </div>    
+        <div class="form-box">    
+            <label for="zipcode">Zip Code</label><input  type="number" name="zip-code" id="zipcode" value="83340" required>
+        </div>
+            <h2 id="storm-info">Storm Information</h2>
+        <div class="form-box">    
+            <label for="storm-date">Storm Date</label><input type="date" name="stormdate" id="storm-date">
+        </div>    
+        <div class="form-box">    
+            <label for="storm-type">Storm Type</label><input  id="storm-type" name="stormtype" list="storm-type1">
+                <datalist id="storm-type1">
+                    <option value="Flash Flood">
+                    <option value="Hail">
+                    <option value="Hurricane">
+                    <option value="Thunderstorm">
+                    <option value="Tornado">       
+                </datalist>
+        </div>
+        <div class="form-box">    
+            <label for="rating">Storm Severity</label><input type="range" name="storm-severity" id="rating" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)"> <span id="ratingvalue">5</span>
+                <datalist id="tickmarks">
+                    <option value="0"></option>
+                    <option value="1"></option>
+                    <option value="2"></option>
+                    <option value="3"></option>
+                    <option value="4"></option>
+                    <option value="5"></option>
+                    <option value="6"></option>
+                    <option value="7"></option>
+                    <option value="8"></option>
+                    <option value="9"></option>
+                    <option value="10"></option>
+                </datalist>
+        </div>
+        <div class="form-box">
+            <label for="storm-region">Storm Region</label>
+                <select id="storm-region" name="stormregion">
+                    <option value="Select Region..." selected disabled>Select Region...</option>
+                    <option value="Preston">Preston</option>
+                    <option value="Soda Springs">Soda Springs</option>
+                    <option value="Fish Haven">Fish Haven</option>
+                </select>
+        </div>
+        <div class="radio-div">    
+            <p id="unoffical-label" class="radio">User In-Danger Level</p>
+                    <div id="dot-buttons">
+                    <label for="yes" class="radio">Yes</label>
+                    <input type="radio" id="yes" name="yes" class="adjust" value="Yes">
+                    <label for="maybe" class="radio adjust">Maybe</label>
+                    <input type="radio" name="maybe" id="maybe" class="adjust" value="Maybe">
+                    <label for="no" class="radio adjust">No</label>
+                    <input type="radio" name="no" id="no" class="adjust" value="No">  
+        </div>      </div>
+        <div class="form-box" id="textarea">    
+            <label for="comments">Additional Information Or Comments</label><textarea id="comments" name="comments"></textarea>
+        </div>
+        <div class="form-box">
+            <input type="submit" name="button" id="input-button" value="Submit">
+        </div>        
+        </form>
+      
+    </main>
+    
+    <footer>
+        
+        
+        <ul>
+            <li id="bottom">&COPY;<p id="copyyear">  | Josh Nuttall |</p><a id="test" target="_blank" href="https://developer.mozilla.org/en-US/"> | MDN Documentation Site </a> | BYU-Idaho Last Updated: <p id="day"></p> </li>
+        </ul>
+    </footer>
+    
+</body>
+
+</html>
