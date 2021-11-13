@@ -12,6 +12,7 @@
         "September 5 - 11: Founder Days",
         "December 1 - 26: Christmas in the Heart"
       ]
+      
     },
     {
       "name": "Fish Haven",
@@ -55,7 +56,7 @@
     },
     {
       "name": "Preston",
-      "photo": "preston.jpg",
+      "photo": "prestonhome.jpg",
       "motto": "Home of Napoleon Dynamite.",
       "yearFounded": 1866,
       "currentPopulation": 5204,

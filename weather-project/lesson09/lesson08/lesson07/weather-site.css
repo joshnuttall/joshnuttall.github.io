@@ -1,0 +1,1033 @@
+@media only screen and (max-width:400px)
+{
+   .form-box input
+    {
+        text-align:center;
+    }
+    
+    .radio-div
+    {
+        display:grid;
+        grid-template-columns: 1fr;
+        grid-template-rows:1fr 1fr;
+        margin-left:-9px;
+        margin-top:-40px;
+        margin-bottom:-80px;
+        
+    }
+
+    #dot-buttons
+    {
+     margin-top:-44px;   
+    }
+
+    #unoffical-label
+    {
+        grid-column:1/2;
+        grid-row:1/2;
+        
+    }
+    
+    .form-box
+    {
+        display:flex;
+        flex-direction:column;
+        padding: 0.5em 0;
+        
+    }
+
+    .form-box label
+    {
+        margin-left:10px;
+        padding-bottom:8px;
+    }
+    
+    .gallery-pictures
+    {
+        display:grid;
+        grid-template-columns:1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-row-gap:5px;
+        grid-column-gap:8px;
+    }
+
+    .gallery
+    {
+        height:auto;
+        width:100%;
+    }
+
+
+    #large
+{
+    display:none;
+}
+
+#medium
+{
+    display:none;
+}
+
+#small
+{
+    position:absolute;
+    right:50px;
+    color:white;
+    background-color:cornflowerblue;
+    padding:10px;
+    opacity:.9;
+    border-radius:5px;
+    
+}
+}
+
+@media screen and (min-width:401px) and (max-width:799px)
+
+{
+    
+    
+    
+.form-box
+{
+    display:flex;
+    flex-direction:column;
+    padding: 0.5em 0;
+}
+
+    
+    .gallery-pictures
+{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-row-gap:8px;
+    grid-column-gap:5px;
+}
+
+.gallery
+{
+    height:auto;
+    width:100%;
+
+
+}
+    
+    
+    
+    
+    
+    #large
+
+{
+    display:none;
+}
+
+#medium
+{
+    
+    position:absolute;
+    right:200px;
+    color:white;
+    background-color:cornflowerblue;
+    padding:10px;
+    opacity:.9;
+    border-radius:5px;  
+}
+
+#small
+{
+    display:none;
+}
+} 
+
+@media only screen and (max-width:799px) {
+    
+    
+    
+    
+    
+    #contact-info #map
+    {
+        display:none;
+    }
+    
+    #idaho-pic
+    {
+        border:2px solid yellow;
+        height:100px;
+        width:50px;
+    }
+
+    .stats
+    {
+       margin-top:-50px;
+       margin-left:-40px;
+       color:black;
+    }
+
+    .social-icons
+    {
+        border:none;
+        background-color:cornflowerblue;
+        display:flex;
+    }
+
+    #contact-content
+    {
+        background-color:cornflowerblue;
+        border:none;
+        text-align:left;
+        margin-left:50px;
+        margin-top:90px;
+        padding-bottom:30px;
+        line-height:5px;
+    }
+
+
+
+    #contact-info h4
+    {
+        margin-top:100px;
+        margin-bottom:-80px;
+        margin-left:20px;
+    }
+ 
+    #article-sec
+{
+    display:grid;
+    grid-template-columns:1fr;
+    grid-template-rows:.25fr;
+}
+
+#article-content
+{
+    border:none;
+    background-color:cornflowerblue;
+    grid-row:2/3;
+    grid-column:1/2;
+    background-color:lightblue;
+}
+
+#article-sec img
+    {
+        margin-left:20px;
+        width: 300px;;
+        color:yellow;
+        grid-column:1/2;
+        grid-row:1/2;
+    }
+
+}
+
+.social-icons img
+{
+    height:56px;
+    width:56px;
+}
+
+
+
+
+
+#contact-info img
+{
+    grid-column:1/2;
+    justify-self:center;
+    align-self:center;
+    margin-left:10px;
+    border:black solid 1px;
+}
+
+#preston-page #preston
+{
+    text-decoration:underline;
+    font-style: italic;
+
+}
+
+ #preston
+{
+    text-decoration:none;
+}
+
+#gallery-body #gallery-link
+{
+    text-decoration:underline;
+    font-style:italic;
+
+}
+
+
+
+.hero.ph
+{
+    margin:0 auto;
+}
+
+#p-banner
+{
+    background-color:lightsalmon;
+    height:50px;
+    color:black;
+    border-style:outset;
+    border-color:black;
+    text-align:center;
+    border-radius:10px;
+    width:350px;
+    height:90px;
+    margin: 0 auto;
+    margin-top:20px;
+    padding-top:10px;
+    padding-bottom:50px;
+    padding-right:20px;
+    font-weight:800;
+    padding-left:20px;
+     
+}
+
+#preston-pic
+{
+    height:auto;
+    max-width:100%;
+    margin:0 auto;
+    text-align:center;
+    display:block;
+    padding-bottom:20px;
+}
+
+
+.hero
+{
+    margin:10px 15px;
+    position: relative;
+    background-color:cornflowerblue;
+    border:none;
+}
+
+#current
+{
+    grid-row:2/3;
+    grid-column:1/2;
+}
+
+#current-span
+{
+    grid-row:2/3;
+    grid-column:2/3;
+}
+
+#temp
+{
+    grid-row:3/4;
+    grid-column:1/2;
+    
+}
+
+#temp-span
+{
+    grid-row:3/4;
+    grid-column:2/3; 
+}
+
+#humid
+{
+    grid-row:4/5;
+    grid-column:1/2;
+}
+
+#humid-span
+{
+    grid-row:4/5;
+    grid-column:2/3;
+}
+
+#wind-speed
+{
+    grid-row:5/6;
+    grid-column:1/2;
+}
+
+#wind-speed-span
+{
+    grid-column:2/3;
+    grid-row:5/6;
+}
+
+.stats h2
+{
+    grid-column:1/3;
+    grid-row:1/2;
+    justify-self:center;
+    
+}
+
+
+
+.stats
+{
+    
+    position:absolute;
+    top:-5px;
+    left:20px;
+    background:radial-gradient(#eee, #4567aa);
+    border: 1px solid black;
+    box-shadow: 0 0 30px #333;
+    opacity:.9;
+    grid-gap:10px;
+    justify-items:center;
+    padding:10px;
+    height:auto;
+    max-width:250px;
+}
+
+
+
+
+#p-banner p
+{
+    font-size:20px;
+}
+
+
+
+.pancake
+{
+    display:none;
+}
+
+#top p
+{
+    grid-column: 2/3;
+    grid-row:2/3;
+    color:black;
+    font-size:20px;
+    text-align:left;
+    margin-top:-20px;
+    align-self:center;
+}
+
+#top h1
+{
+    grid-column:2/3;
+    grid-row:1/2;
+    color:black;
+    font-size:37px;
+    text-align:center;
+    text-align:left;
+    
+}
+
+
+
+footer p
+{
+    display:inline;
+    font-size:20px;
+    
+    
+}
+
+footer
+{
+    padding:10px;
+}
+
+#test
+{
+    text-decoration:none;
+    color:black;
+    
+}
+
+#test:hover
+{
+    color:white;
+    background-color:black;
+    padding:1px;   
+}
+
+#bottom 
+{
+    list-style-type:none;
+    text-align:center;
+    
+
+}
+
+
+
+#copyyear
+{
+    font-size:12px;
+}
+
+/*display:flex;
+direction:column;
+justify-content:center;
+border-color:black;
+border-style:outset;
+*/
+nav
+{
+    background-color:#FFF44F;
+    color:#010B13;
+    margin:0 auto;
+    max-width:800px;
+    text-align:center;
+
+}
+
+.navigation
+{
+   list-style:none;
+   padding: 0;
+}
+
+.navigation li:first-child
+{
+    display:block;
+}
+
+.navigation li
+{
+    display:none;
+}
+
+#article
+{
+    
+    grid-row:2/3;
+    grid-column:1/2;
+    padding-left:300px;
+    
+}
+
+#idaho-pic
+{
+    width:500px;
+    grid-row:1/3;
+    grid-column:2/3;
+    
+}
+
+.navigation
+{
+   display:block;
+    padding:0;
+}
+
+.article-section
+{
+    display:grid;
+    grid-template-columns:1fr .25fr;
+    grid-template-rows:1fr 1fr;
+}
+
+.article-section h3
+{
+    margin-left:100px;
+}
+
+.navigation a
+{
+    display:block;
+    padding:.75em;
+    text-align:left;
+    text-decoration:none;
+    color:black;
+    font-weight: 700;
+    transition: .5s;
+    
+}
+
+.navigation button
+{
+    display:block;
+    margin:0 auto;
+    padding:.75em;
+    text-align:left;
+    text-decoration:none;
+    color:black;
+    font-weight: 700;
+    transition: .5s;
+    border:none;
+    background-color: #6494ed00;
+}
+
+
+
+.responsive li 
+{
+    display:block;
+    text-align:center;
+    
+}
+
+.responsive li a
+{
+    text-align:center;
+}
+
+#bottom
+{
+    font-size:12px;
+}
+
+#day
+{
+    font-size:12px;
+}
+
+header
+{
+    background-color:#6495ED;
+}
+
+#thankyou
+{
+    background-color:white;
+    width:350px;
+    
+    margin:0 auto;
+    border-radius:10px;
+    
+}
+
+#thankyou p
+{
+    margin-left:4px;
+}
+
+h1,h2
+{
+    font-family:'Source Sans Pro', sans-serif;
+}
+
+
+body
+{
+    background-color:cornflowerblue;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer
+{
+    background-color:#FFF44F;
+    font-size:12px;
+}
+
+/*nav ul
+{
+    display:flex;
+    flex-direction:column;
+    list-style-type:none;
+    
+}
+*/
+
+#forecast
+{
+    display:none;
+}
+
+
+.gallery-pictures
+{
+    margin-bottom:20px;
+    margin-left:10px;
+}
+
+.gallery-pictures div 
+    {
+        background-color:white;
+        border-radius:10px;
+        padding-top:10px;
+        padding-left:10px;
+        padding-right:5px;
+        padding-bottom:2px;
+        width:88%;
+    }
+
+
+    main div
+    {
+        max-width:1200px;
+        padding:30px;
+        font-size:18px;
+        margin:10px;
+
+    }
+
+
+
+/*
+nav ul li
+{
+    font-size:25px;
+    line-height:40px;
+    
+}
+*/
+
+@media only screen and (min-width:800px)
+{
+
+#personal-info
+{
+    margin-bottom: -25px;
+}
+
+#storm-info
+{
+   margin-bottom:-25px; 
+}
+
+#input-button
+{
+   margin-bottom:40px;
+}
+
+#textarea
+{
+    display:flex;
+    flex-direction:column;
+    width:600px;
+    margin-top:-80px;
+}    
+
+#unoffical-label
+{
+    display:inline;
+}
+
+#dot-buttons
+{
+    margin-left:94px;
+    display:inline-block;
+
+}
+
+.adjust
+{
+ margin-left:5px;
+}
+
+.radio-div
+{
+    margin-top:-70px;
+}
+
+
+
+.shadow:hover {box-shadow: 0 0 50px white;}
+
+#storm-type
+{
+    width:145px;
+}
+
+#storm-date
+{
+    width:155px;
+    
+}
+
+#zipcode
+{
+    width:65px;
+}
+
+#phonenumber
+{
+    width:100px;
+    
+}
+
+#fullname
+{
+    width:180px;
+}
+
+#email
+{
+    width:180px;
+}
+
+.form-box 
+{
+    margin-bottom:-50px;
+   
+}
+
+.radio-div
+{
+    margin-bottom:-50px;   
+}
+
+.form-box label
+{
+    width:300px;
+    display:inline-block;
+}
+
+.gallery{
+    height:auto;
+    width:100%;
+}
+
+.gallery-pictures
+{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-column-gap:5px;
+    grid-row-gap:8px;
+}
+
+
+    #large
+{
+    position:absolute;
+    right:200px;
+    top:20px;
+    color:white; 
+    background-color:cornflowerblue;
+    padding:10px;
+    opacity:.9;
+    border-radius:5px;  
+}
+
+#medium
+{
+    display:none;
+}
+
+#small
+{
+    display:none;
+}
+    .navigation button:hover
+    {
+        color:white;
+        background-color: black; 
+        
+    }
+    
+    .navigation a:hover
+    {
+    color:white;
+    background-color: black;
+    }
+    
+    #article-sec
+{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows:.25fr;
+
+}
+
+#article-content
+{
+    border:none;
+    background-color:cornflowerblue;
+    grid-row:1/2;
+    grid-column:1/2;
+}
+
+#article-sec img
+    {
+        
+        width: 600px;;
+        color:yellow;
+        grid-column:2/3;
+        grid-row:1/4;
+    }
+
+
+
+    #top
+    {
+        display:grid;
+    }  
+    
+    #top h1
+    {
+        font-size:52px;
+        
+    }
+
+    #top p
+    {
+        font-size:25px;
+
+
+    }
+
+    #pic
+    {
+
+        margin-right:-300px;
+        padding-left:240px;
+    }
+
+    .navigation 
+    {
+        display:flex;
+    }
+
+    .navigation li
+    {
+        display:block;
+        flex: 1 1 auto;
+    }
+
+    .navigation a 
+    {
+        text-align: center;
+        font-size:20px;
+    }
+
+    .navigation li:first-child
+    {
+        display:none;
+    }
+
+    nav 
+    {
+        max-width:none; 
+    }
+
+    
+    
+    h2
+    {
+        font-size:35px;
+        padding-left:30px;
+    }
+    
+    footer
+    {
+        font-size:16px;
+    }
+
+    #day
+    {
+        font-size:16px;
+    }
+
+    #bottom
+    {
+        font-size:16px;
+
+    }
+
+    #copyyear
+    {
+        font-size:16px;
+    }
+
+    .stats
+    {
+        height:350px;
+    }
+
+    .outerbox
+{
+    display:grid;
+    grid-template-rows:30% 70%;
+    grid-row:2/3;
+    height:210px;
+    width:70px;
+    background-color:white;
+    border:3px solid black;
+    justify-content:center;
+}
+
+#noscript
+{
+    background-color:white;
+    color:red;
+    margin-left:350px;
+}
+
+h3
+{
+    color:black;
+}
+#forecast h1
+{
+    grid-column: 2/5;
+    color:black;
+    justify-self:center;
+}
+
+.day
+{
+    text-align:center;
+    background-color:white;
+    border:1px solid black;
+}
+
+.pic-box img
+{
+    background-color:white;
+    height:80%;
+}
+
+.pic-box
+{
+    background-color:white;
+    height:30%;
+    border:none;
+    text-align:center;
+}
+
+#forecast
+{
+    display:grid;
+    grid-template-rows:.2fr .8fr;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+    border:1px solid black;
+    background-color:cornflowerblue;
+    padding-bottom:20px;
+    width:800px;
+    margin:0 auto;  
+}
+
+.social-icons
+{
+    border:none;
+    background-color: cornflowerblue;
+    display:grid;
+    grid-template-rows:1fr;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-gap:7px;
+
+}
+
+#contact-info
+{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+}
+
+#contact-info h4
+{
+    grid-column:2/3;
+    justify-self:center;
+}
+
+#contact-info #contact-content
+{
+    grid-column:2/3;
+    grid-row:2/3;
+    justify-self:center;
+    border:4px solid black;
+    background-color: cornflowerblue;
+}
+
+
+
+
+}
