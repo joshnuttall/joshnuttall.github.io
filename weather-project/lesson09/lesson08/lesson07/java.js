@@ -1,4 +1,4 @@
-const requestURL = 'https://joshnuttall.github.io/weather-project/lesson09/towndata.json'
+const requestURL = 'towndata.json'
 
 fetch(requestURL)
     .then(function(response) {
@@ -13,6 +13,7 @@ const towns = jsonObject['towns'];
 for(let i=0;i<towns.length;i++)
 {
     let townSection = document.createElement('section');
+    let imageSection = document.createElement('section');
     let townName = document.createElement('h1');
     let townMotto = document.createElement('h2');    
     let yearFounded = document.createElement('p');
@@ -26,14 +27,28 @@ for(let i=0;i<towns.length;i++)
     yearFounded.textContent = 'Year Founded: ' + towns[i].yearFounded;
     population.textContent = 'Population: ' + towns[i].currentPopulation;
     rainFall.textContent = 'Annual Rain Fall: ' + towns[i].averageRainfall;
+    townMotto.setAttribute('class','town-h2');
+    townName.setAttribute('class','towns-h1');
+    townSection.setAttribute('class','townsection');
     image.setAttribute('src',towns[i].photo);
+    image.setAttribute('alt',towns[i].name + ' picture');
+    image.setAttribute('class','towns-sec')
+    townSection.setAttribute('id','townsec' + i);
 
+    if(i == 0 || i % 2 == 0)
+    {
+        imageSection.setAttribute('class', 'special');
+        townSection.setAttribute('class','townsection special2')
+    }
+
+
+    imageSection.appendChild(image);
     townSection.appendChild(townName);
     townSection.appendChild(townMotto);
     townSection.appendChild(yearFounded);
     townSection.appendChild(population);
     townSection.appendChild(rainFall);
-    townSection.appendChild(image);
+    document.querySelector('div.towns').appendChild(imageSection);
     document.querySelector('div.towns').appendChild(townSection);
 }
 
