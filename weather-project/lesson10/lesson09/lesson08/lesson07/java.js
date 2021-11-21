@@ -54,7 +54,7 @@ let z = x.getDay();
 
         if(z == 6)
         {
-            z = 0;
+            z = -1;
         }
 
         else
