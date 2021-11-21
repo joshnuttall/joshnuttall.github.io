@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preston, Idaho | Snowday</title>
+    
+    <link rel="stylesheet" href="weather-site.css">
+    <link rel="shortcut icon" href="favicon.icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <script defer src="java.js"></script>
+
+    
+            
+</head>
+<body id="preston-page" onLoad="years();date();pancakeBanner();">
+    
+    <noscript id="noscript">Javascript needs to be enabled in order to enhance the features of this page.</noscript>
+    <header>
+    <div class="pancake" id="p-banner">
+        <p>Saturday = Preston Pancakes in the Park! <br> 9:00 A.M. Friday at the city park.</p>
+        
+    </div>
+    <section id="top">
+        <img id="pic" alt="logo" src="https://cdn.glitch.com/36b005b9-6e4e-4834-ae2d-f614d6c2fd79%2F274759_weather_heavy%20snow_snowy_forecast_icon%20(1).png?v=1633109195933">
+        <h1>Snowday</h1>
+        <p>Providing Weather Updates To Prepare For Tomorrow</p>
+    </section>
+        <nav>
+            <ul class="navigation">
+                <li><button onClick="toggleMenu();" class="ham">Menu</button></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a id ="preston" href ="preston-10.html">Preston</a></li>
+                <li><a href="">Soda Springs</a></li>
+                <li><a href="">Fish Haven</a></li>
+                <li><a href="stormcenter.html">Storm Center</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Preston, Idaho</h2>
+        <p id="jk"></p>
+        <div class="hero">
+            <p id="large">Large</p>
+            <p id="medium">Medium</p>
+            <p id="small">Small</p>
+            <picture>
+                <source srcset="hero800.jpg" media="(min-width:400px) and (max-width:799px)">
+                <source srcset="hero1500.jpg" media="(min-width:800px)">
+            <img id="preston-pic" alt="preston" src="hero400.jpg">
+            </picture>
+            <section class="stats">
+                <h2>Weather Summary</h2>
+                <p id ="current">Currently: </p> 
+                <p id ="temp">Current: </p>
+                <p id = "humid">Humidity: </p> 
+                <p id ="wind-speed">Wind Speed: </p>
+                <p id ="wind-chill">Wind Chill:<span id="wind-chill-span">??</span></p>  
+            </section>
+            <section id="forecast">
+                <h1>5 Day Forecast</h1>
+                <div class="outerbox">
+                    <div class="day" id="day1"></div>
+                    <div class="pic-box" id="pic-box-1"></div>
+                </div>
+                <div class="outerbox">
+                    <div class="day" id="day2"></div>
+                    <div class="pic-box" id="pic-box-2"></div>
+                </div>
+                <div class="outerbox">
+                    <div class="day" id="day3"></div>
+                    <div class="pic-box" id="pic-box-3"></div>
+                </div>
+                <div class="outerbox" >
+                    <div class="day" id="day4"></div>
+                    <div class="pic-box" id="pic-box-4"></div>
+                </div>
+                <div class="outerbox">
+                    <div class="day" id="day5"></div>
+                    <div class="pic-box" id="pic-box-5"></div>
+                </div>
+            </section>
+
+
+        </div>
+        
+        <section id="article-sec">
+            <img alt="preston2" src="idaho1.jpg">
+            <div id="article-content" >
+            <h2>Article Title</h2>
+            <p>By Random Author</p>
+            <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum ratione consectetur consequuntur error perspiciatis odio, quisquam tempora hic laudantium aspernatur molestias facere ipsam quae optio, nesciunt reprehenderit blanditiis deleniti reiciendis.</p>
+            </div>
+        </section>
+        <section id="contact-info"><h2>Contact Information</h2>
+            <img  id="map" alt="map" src="prestonmap.png">
+            
+        <div id="contact-content">    
+            <p>Snowday</p>
+            <p>30 N 1st E</p>
+            <p>Preston, ID 83263</p><br>
+            <p>&phone; 999.999.9999</p>
+            <p>&#9993; snodayemail@email.com</p>
+                
+            <div class="social-icons">
+                <a target=" _blank" href="https://www.facebook.com/"><img alt="facebook" src="facebooksnowday.png"></a>
+                <a target=" _blank" href="https://www.pinterest.com/"><img alt="pinterest" src="pinterest.png"></a>
+                <a target=" _blank" href="https://twitter.com"><img alt="twitter" src="twittersnowday.png"></a>
+                <a target=" _blank" href="https://www.whatsapp.com/"><img alt="whatsapp" src="whatsapp.png"></a>
+            </div>
+        
+        </div>
+        </section>
+    </main>
+    
+    <footer>
+        
+        
+        <ul>
+            <li id="bottom">&COPY;<p id="copyyear">  | Josh Nuttall |</p><a id="test" target="_blank" href="https://developer.mozilla.org/en-US/"> | MDN Documentation Site </a> | BYU-Idaho Last Updated: <p id="day"></p><a href="https://openweathermap.org/" id="openweather"> | openweathermap.org</a> </li>
+        </ul>
+    </footer>
+    
+</body>
+
+</html>
