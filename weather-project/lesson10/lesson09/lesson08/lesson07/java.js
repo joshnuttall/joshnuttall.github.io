@@ -16,12 +16,22 @@ fetch(fiveDayPreston)
 
 var x = new Date();
 let z = x.getDay();
+let g = z + 1;
 
     for(i = 1;i<6;i++)
     {   
         
+        if(g == 7)
+        {
+            g = 0;
+        }
+
+        else
+        {
+
+        }
         
-        switch(z)
+        switch(g)
         {
             case 0:
                 string = "Sun"
@@ -52,9 +62,9 @@ let z = x.getDay();
 
 
 
-        if(z == 6)
+        if(g == 6)
         {
-            z = -1;
+            g = 0;
         }
 
         else
@@ -66,7 +76,7 @@ let z = x.getDay();
 
         
 
-        z += 1;
+        g += 1;
     }
 
 
