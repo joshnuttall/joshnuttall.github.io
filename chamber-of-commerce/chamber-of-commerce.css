@@ -53,6 +53,12 @@ h1
     margin-bottom:10px;
 }
 
+#card-box div
+{
+    height: fit-content;
+    width:fit-content;
+}
+
 #box
 {
     background-color:#bf4f51;
