@@ -9,6 +9,15 @@ h1
     color:white; 
 }
 
+.cardz
+{
+    color:#586786;
+    background-color: white;
+    height:100px;
+    border-radius:0px;
+    margin-bottom:10px;
+}
+
 div
 {
     background-color:#bf4f51;

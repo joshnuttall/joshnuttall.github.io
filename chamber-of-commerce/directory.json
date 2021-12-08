@@ -3,49 +3,58 @@
 
  {  "name":"Havana Business Improvement District - On Havana Street",
     "address":"1555 S Havana St Ste F303 Aurora, CO 80012",
-    "contact":"720-788-8986"
+    "contact":"720-788-8986",
+    "hello":"hi",
+    "logo":"https://joshnuttall.github.io/chamber-of-commerce/king-soopers1.jpg"
 }
 ,
 {
    "name":"Safeway",
    "address":"1677 S Havana St Aurora, CO 80012",
-   "contact":"303-481-2279" 
+   "contact":"303-481-2279", 
+   "logo":"https://joshnuttall.github.io/chamber-of-commerce/king-soopers1.jpg"
 }
 ,
 {
    "name":"Children's Hospital Colorado",
    "address":"13123 E. 16th Ave., Box 105 Aurora, CO 80045",
-   "contact":"720-777-1234" 
+   "contact":"720-777-1234",
+   "logo":"https://joshnuttall.github.io/chamber-of-commerce/king-soopers1.jpg" 
 }
 ,
 {
    "name":"CenturyLink",
    "address":"14222 E Cedar Ave Suite B Aurora, CO 80012",
-   "contact":"303-343-0861" 
+   "contact":"303-343-0861",
+   "logo":"https://joshnuttall.github.io/chamber-of-commerce/king-soopers1.jpg" 
 }
 ,
 {
     "name":"Wells Fargo Bank",
     "address":"2222 S Buckley Rd Aurora, CO 80013",
-    "contact":"303-338-4745"   
+    "contact":"303-338-4745",
+    "logo":"https://joshnuttall.github.io/chamber-of-commerce/king-soopers1.jpg"   
 }
 ,
 {
     "name":"DoubleTree",
     "address":"13696 E. Iliff Pl. Aurora, CO 80014",
-    "contact":"303-337-2800"
+    "contact":"303-337-2800",
+    "logo":"https://joshnuttall.github.io/chamber-of-commerce/king-soopers1.jpg"
 }
 ,
 {
     "name":"King Soopers",
     "address":"6412 S Parker Rd Aurora, CO 80016",
-    "contact":"303-627-6060"
+    "contact":"303-627-6060",
+    "logo":"https://joshnuttall.github.io/chamber-of-commerce/king-soopers1.jpg"
 }
 ,
 {
     "name":"The Movie Tavern",
     "address":"18605 E. Hampden Ave. Aurora, CO 80013",
-    "contact":"303-680-9913"
+    "contact":"303-680-9913",
+    "logo":"https://joshnuttall.github.io/chamber-of-commerce/king-soopers1.jpg"
 }
  ]
 

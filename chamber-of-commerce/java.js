@@ -1,3 +1,37 @@
+const url = 'https://joshnuttall.github.io/chamber-of-commerce/directory.json';
+
+fetch(url)
+    .then(function(response){
+        if(response.ok){
+            return response.json();
+        }
+    throw new Error('Network Response was not ok');
+
+    })
+    .then(function(jsonObject){
+        const business = jsonObject['business'];
+        for(i=0;i<business.length;i++){
+        let card = document.createElement('div');
+        let name = document.createElement('p');
+        let address = document.createElement('p');
+        let contact = document.createElement('p');
+        let image = document.createElement('img');
+        image.setAttribute('src','https://joshnuttall.github.io/chamber-of-commerce/king-soopers1.jpg');
+        name.textContent = jsonObject.business[i].name;
+        address.textContent = jsonObject.business[i].address;
+        contact.textContent = jsonObject.business[i].contact;
+    card.setAttribute('class','cardz')
+    card.appendChild(name);
+    card.appendChild(address);
+    card.appendChild(contact);
+    card.appendChild(image);
+    document.querySelector('main#card-box').appendChild(card);
+    
+}
+console.log(jsonObject);
+
+    })
+
 function currYear()
 {
     let year = new Date;
