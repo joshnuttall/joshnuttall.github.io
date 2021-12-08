@@ -16,7 +16,7 @@ fetch(url)
         let address = document.createElement('p');
         let contact = document.createElement('p');
         let image = document.createElement('img');
-        image.setAttribute('src','https://joshnuttall.github.io/chamber-of-commerce/king-soopers1.jpg');
+        image.setAttribute('src',jsonObject.business[i].logo);
         name.textContent = jsonObject.business[i].name;
         address.textContent = jsonObject.business[i].address;
         contact.textContent = jsonObject.business[i].contact;

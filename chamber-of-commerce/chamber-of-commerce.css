@@ -4,6 +4,41 @@ body
     
 }
 
+#bronze
+{
+    background-color: #CD7F32;
+    max-width:200px;
+    max-height:200px;
+}
+
+#silver
+{
+    background-color:#C0C0C0;
+    max-width:200px;
+    max-height:200px;
+}
+
+#main-join
+{
+    display:grid;
+    grid-template-rows:1fr;
+    grid-template-columns:1fr 1fr;
+}
+
+#gold
+{
+    background-color:#FFD700;
+    max-width:200px;
+    max-height:200px;
+}
+
+#non-profit
+{
+    background-color:#bf4f51;
+    max-width:200px;
+    max-height:200px;
+}
+
 h1
 {
     color:white; 
@@ -18,7 +53,7 @@ h1
     margin-bottom:10px;
 }
 
-div
+#box
 {
     background-color:#bf4f51;
     width:400px;
@@ -168,6 +203,39 @@ footer ul
     text-align:center;
 }
 
+input
+{
+    display:block;
+}
+
+iframe
+{
+    
+    max-width:100%;
+    height:auto;
+    margin-left:10px;
+}
+
+#contact-main
+{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows:1fr 1fr;
+    
+}
+
+#board
+{
+    grid-row:1/2;
+    grid-column:2/3;
+}
+
+#contact-info
+{
+    color:white;
+    margin-left:10px;
+}
+
 #events
 {
     height:400px;
@@ -175,6 +243,11 @@ footer ul
     background-color:#bf4f51;
     text-align:center;
     
+}
+
+textarea
+{
+    width:390px;
 }
 
 #events ul
