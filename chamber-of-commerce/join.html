@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="chamber-of-commerce.css">
     <title>Home Page - Chamber of Commerce Aurora, CO</title>
     <script src="java.js"></script>
@@ -19,12 +20,12 @@
         </ul>
     </nav>
     <main id="main-join">
-        <form>
+        <form method="get">
             <h1>Join</h1>
             <label for="firstname">First Name:</label><input id="firstname" type="text" required> 
             <label for="lastname">Last Name:</label><input id="lastname" type="text" required>
             <label for="title">Title:</label><input id="title" type="text">
-            <label for="email">Email</label><input id="email" type="email">
+            <label for="email">Email</label><input id="email" type="email" required>
             <label for="phone">Cell Phone:</label><input id="phone" type="tel">
             <label for="business">Business Name:</label><input id="business" type="text" required>
             <label for="address">Business Address:</label><input id="address" type="text">
@@ -36,6 +37,7 @@
                 <option value="silver">Silver</option>
                 <option value="gold">Gold</option>
             </select>
+            <input type="submit" value="Submit">
         </form>
     <div id="key">
         <div id="non-profit">

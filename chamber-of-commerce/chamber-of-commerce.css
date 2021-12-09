@@ -1,8 +1,33 @@
+form
+{
+    margin-left:180px;
+}
+
+#fp1
+{
+    color:white;
+}
+
+#fp3
+{
+    color:white;
+}
+
+label
+{
+    
+    display:inline-block;
+    margin-top:8px;
+    margin-bottom:8px;
+}
+
 body
 {
     background-color:#586786;
     
 }
+
+
 
 #bronze
 {
@@ -17,6 +42,16 @@ body
     max-width:200px;
     max-height:200px;
 }
+
+
+#h1-auroras
+{
+    text-align:left;
+    font-size:45px;
+    
+    
+}
+
 
 #main-join
 {
@@ -44,7 +79,7 @@ h1
     color:white; 
 }
 
-.cardz
+#card-box div
 {
     color:#586786;
     background-color: white;
@@ -53,13 +88,91 @@ h1
     margin-bottom:10px;
 }
 
-#card-box div
+.grido
 {
-    height: fit-content;
-    width:fit-content;
+    display:flex;
+    flex-direction: column;
+    margin-left:500px;
 }
 
-#box
+
+/*only for large view*/
+
+button
+{
+    height:1%;
+    width:5%;
+}
+
+#grid-button
+{
+    height:100%;
+    width:100%;
+}
+
+#single-column
+{
+    height:100%;
+    width:100%;
+}
+
+.single 
+{
+    display:grid;
+    grid-template-rows:1fr 1fr 1fr;
+    grid-template-columns:1fr 1fr 1fr;
+    margin-left:55px;
+}
+
+#call-action #aa
+{
+    color:white;
+}
+
+#main-home
+{
+    color:white;
+}
+
+body p 
+{
+    font-weight:700;
+}
+
+footer p
+{
+    color:white;
+}
+
+footer a
+{
+    color:white;
+}
+
+#card-box div
+{
+
+    height:480px;
+    max-width:350px;
+    color:black;
+    font-size:25px;
+}
+
+#main-home
+{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr 1fr;
+    
+}
+
+
+#card-box div img
+{
+    margin-left:10px;
+}
+
+/*#box
 {
     background-color:#bf4f51;
     width:400px;
@@ -68,7 +181,9 @@ h1
     margin-left:20px;
     padding-top:20px;
     padding-bottom:20px;
+
 }
+*/
 
 .navigation
 {
@@ -129,24 +244,16 @@ body
     margin-left: 20px;
 }
 
-#box
-{
-    display:grid;
-    
-}
+
 
 #kingsoops
 {
-    grid-column:1/2;
-    grid-row:3/4;
     margin:0 auto;
     border:2px solid black;
 }
 
 #cherry
 {
-    grid-column:1/2;
-    grid-row:2/3;
     margin:0 auto;
     border:2px solid black;
 }
@@ -189,8 +296,12 @@ footer
     grid-row:1/2;
     grid-column:3/4;
     text-decoration:none;
-    color:black;
     margin-top:15.7px;
+}
+
+#main-aurora
+{
+    color:white;
 }
 
 #fp4
@@ -248,6 +359,7 @@ iframe
     width:300px;
     background-color:#bf4f51;
     text-align:center;
+    margin-left:30px;
     
 }
 
@@ -267,11 +379,44 @@ textarea
     margin-bottom:10px;
 }
 
+
+
 #main-aurora
 {
+    margin-left:10px;
     display:grid;
     grid-template-columns:1fr 1fr 1fr;
-    grid-template-rows:1fr 1fr;
+    grid-template-rows:1fr 1fr 1fr;
+}
+
+#aurora-pic
+{
+    grid-row:2/3;
+    grid-column:3/4;
+    margin-right:50px;
+    margin-bottom:30px;
+}
+
+#footer-main-aurora
+{
+    margin-top:-500px;
+}
+
+#main-join
+{
+    color:white;
+}
+
+#key h1
+{
+    color:black;
+    
+}
+
+#key
+{
+    color:black;
+    font-weight:800;
 }
 
 #history
@@ -286,3 +431,332 @@ textarea
     grid-column:1/3;
     margin-top:-300px;
 }
+
+#call-action
+{
+    margin-top:25px;
+    max-width:350px;
+    max-height:100px;
+    background-color:#bf4f51;
+    border-radius:20px;
+    text-align:center;
+    
+    
+}
+
+#call-action a
+{
+    text-decoration:none;
+    color:black;
+    font-weight: 700; 
+    ;
+}
+
+.cardz h1
+{
+    color:black;
+    font-size:20px;
+}
+
+#contact-main
+{
+    color:white;
+}
+
+#social a img
+{
+    width:50px;
+    height:50px;
+}
+
+.current-weather 
+{
+    background-color: #bf4f51;
+    max-width:350px;
+    max-height:170px;
+    margin-top:-200px;
+}
+
+.current-weather h1
+{
+    margin-left:10px;
+}
+
+.current-weather p
+{
+    margin-left:20px;
+}
+
+
+#purpose
+{   
+    grid-column:2/3;
+    grid-row:2/3;
+    background-color:#bf4f51;
+    max-height:400px;
+    max-width:350px;
+    margin-top:-170px;
+    padding:5px;
+}
+
+#purpose h1
+{
+    margin-left:10px;
+    
+}
+
+#box
+{
+    margin-left:20px;
+    display:grid;
+    grid-template-columns:1fr;
+    grid-template-rows:1fr 1fr 1fr;
+    grid-column:1/2;
+    grid-row:1/4;
+}
+
+#aurora-building
+{
+    height:auto;
+    max-width:90%;
+    grid-column:3/4;
+    border-radius:15px;
+
+}
+
+@media only screen and (max-width:500px){
+    #main-home
+    {
+        display:grid;
+        grid-template-rows:1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns:1fr;
+        margin:0 auto;
+    }
+
+    p
+    {
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    #card-box div
+    {
+        height:50px;
+    }
+
+    #main-aurora
+    {
+        display:grid;
+        grid-template-rows:1fr 1fr 1fr 1fr;
+        grid-template-columns:1fr;
+    }
+
+    #history
+    {
+        grid-column:1/2;
+        grid-row:1/2;
+        
+    }
+
+    #demographics
+    {
+        grid-column:1/2;
+        grid-row:2/3;
+        margin-top:-90px;
+    }
+
+    #events
+    {
+        grid-column:1/2;
+        grid-row:3/4;
+        margin-top:-80px;
+        
+    }
+
+
+    #aurora-pic
+    {
+        width:330px;
+        height:auto;
+        grid-column:1/2;
+        grid-row:4/5;
+        margin-top:-10px;
+    }
+
+
+    #box img
+    {
+        max-width:460px;
+        height:auto;
+    }
+
+    #h1-auroras
+    {
+        grid-row:1/2;
+        grid-column:1/2;
+        font-size:23px;
+    }
+
+    #box
+    {   
+        margin-top:-550px;
+        grid-column:1/2;
+        grid-row:2/3;
+    }
+
+    #aurora-building
+    {
+        max-width:400px;
+        height:auto;
+        margin:20px;
+        grid-row:3/4;
+        grid-column:1/2;
+    }
+    
+    #call-action
+    {
+        margin-top:-215px;
+        margin-left:30px;
+        grid-row:4/5;
+        grid-column:1/2;
+    }
+
+    #purpose
+    {
+        max-width:400px;
+        height:auto;
+        margin-left:5px;
+        margin-top:-755px;
+        grid-column:1/2;
+        grid-row:5/6;
+    }
+    
+    .current-weather
+    {
+        max-width:400px;
+        height:auto;
+        margin-left:5px;
+        margin-top:-1000px;
+        grid-row:6/7;
+        grid-column:1/2;
+    } 
+
+    #social
+    {
+        margin-top:-1480px;
+        margin-bottom:-10000px;
+        grid-row:7/8;
+        grid-column:1/2;
+    }
+
+    footer
+    {
+        margin-bottom:-4000px; 
+    }
+
+    #footer-main-aurora
+    {
+        margin-top:30px;
+    }
+
+    form
+    {
+    margin-left:5px;
+    }    
+
+    #key
+    {
+        margin-left:15px;
+    }
+
+    #key h1 
+    {
+        font-size:18px;
+    }
+
+    #key div
+    {
+        width:90%
+    }
+
+
+}
+
+@media only screen and (min-width:501px) and (max-width:800px)
+{
+    #box img
+    {
+        max-width:200px;
+        height:auto;
+    }
+
+    #h1-auroras
+    {
+        font-size:30px;
+    }
+
+    #purpose
+    {
+        height:auto;
+        max-width:240px;
+        margin-left:-15px;
+    }
+
+    #aurora-building
+    {
+        max-width:225px;
+        margin-left:11px;
+        height:auto;
+    }
+
+    #call-action
+    {
+       margin-top:-90px; 
+       width:95%; 
+    }
+
+    #call-action h1
+    {
+        margin-top:-4px;
+        font-size:25px;
+    }
+
+    #call-action a
+    {
+        margin-top:-10px;
+    }
+
+    .current-weather
+    {
+        margin-top:-300px;
+        width:95%;
+    }
+
+    .current-weather h1
+    {
+        font-size:25px;
+    }
+
+    #aurora-pic
+    {
+        width:80%;
+        height:auto;
+        margin-top:18px;
+        margin-bottom:50px;
+    }
+
+    #events
+    {
+        margin-right:40px;
+    }
+
+    #footer-main-aurora
+    {
+        margin-top:-480px;
+    }
+
+    #demographics
+    {
+        margin-top:-165px;
+    }
+}
+

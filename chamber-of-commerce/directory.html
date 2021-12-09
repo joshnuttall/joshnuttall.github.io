@@ -4,19 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="chamber-of-commerce.css">
     <title>Home Page - Chamber of Commerce Aurora, CO</title>
     <script src="java.js"></script>
 </head>
 <body onload="currYear();lastMod();">
-    <img src="centurylinklogo.jpg">
-    <img src="doubletreelogo.jpg">
-    <img src="kingSooperslogo.jpg">
-    <img src="movie-tavernlogo.jpg">
-    <img src="wells-fargo-logo-2.jpg">
-    <img src="childrenshospital-logo.jpg">
-    <img src="Safeway-logo.jpg">
-    <img src="havana-street-logo.jpg">
     <nav>
         <ul class="navigation">
             <li><a href="home.html">Home</a></li>
@@ -26,8 +19,11 @@
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
-    <main id="card-box">
 
+    <button onclick="grid();"><img id="grid-button" src="gridviewlogo.jpg"></button>
+    <button onclick="single();"><img id="single-column" src="listview.jpg"></button>
+    <main id="card-box" class="grido">
+        
     </main>
 
     <footer>
